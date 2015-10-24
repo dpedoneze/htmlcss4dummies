@@ -21,3 +21,8 @@ CSS
 
 - [slides] (http://dpedoneze.github.io/htmlcss4dummies)
 - [assets] (https://github.com/dpedoneze/htmlcss4dummies/tree/master/assets)
+- [pdf] (https://speakerdeck.com/dpedoneze/html-e-css-para-iniciantes)
+
+---
+
+Slides framework [reveal.js](https://github.com/hakimel/reveal.js)
