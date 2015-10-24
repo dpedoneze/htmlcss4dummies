@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h5 { font-weight: lighter; }
+
+html {
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 50px;
+  background-color: #222;
+
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto 30px;
+}
+
+.categories {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.categories li {
+  float: left;
+  width: 22%;
+  background-color: #ccc;
+  padding: 10px 0;
+  margin: 0 4% 0 0;
+  border-radius: 7px;
+  color: #333;
+}
+
+.categories li:hover {
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.categories li:last-child {
+  margin: 0;
+}
+
+/*  post section  */
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.posts {
+  width: 70%;
+  padding-right: 20px;
+  float: left;
+}
+
+.posts .author,
+.posts .time {
+  font-size: 12px;
+}
+
+.posts .time {
+  color: #ccc;
+  float: right;
+}
+
+.posts p {
+  line-height: 20px;
+}
+
+.posts hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+aside {
+  width: 30%;
+  float: left;
+}
+aside ul {
+  padding: 0;
+  list-style: none;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: red;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+}
